@@ -54,7 +54,7 @@ class MainActivity : AppCompatActivity() {
                 else{binding.resultText.text = result.toString()}
 
             } catch (e:Exception){
-                Log.d("Ошибка ","сообщение: ${e.message}")
+                Log.d("Ошибка ага ","сообщение: ${e.message}")
             }
         }
     }
